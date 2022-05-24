@@ -3,7 +3,7 @@ from qiskit.visualization import plot_histogram
 
 # This Qiskit program demonstrates how quantum entanglement is achieved.
 # Intuitively speaking, qubit 0 is placed in superposition using a Hadamard gate.
-# Then, a CNOT gate is applied to qubit 0 and 1. The state of qubit one is dependent
+# Then, a CNOT gate is applied to qubit 0 and 1. The state of qubit 1 is dependent
 # on the result of the CNOT gate, but until we measure it, we do not know what that is.
 # Implemented correctly, we should see a 50/50 distribution with both qubits having the same value.
 
